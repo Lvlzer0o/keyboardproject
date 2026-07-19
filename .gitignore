@@ -1,0 +1,89 @@
+# --- OS ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
+$RECYCLE.BIN/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+*.user
+*.suo
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+pip-wheel-metadata/
+
+# --- Node (if UI tooling later) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# --- Rust (if used later) ---
+target/
+Cargo.lock.bak
+
+# --- Captures & RE artifacts (often large / sensitive) ---
+*.pcap
+*.pcapng
+*.cap
+captures/
+dumps/
+*.dmp
+*.bin
+*.hex
+*.fw
+firmware/
+!docs/**/*.md
+
+# --- Ghidra / debuggers ---
+*.rep/
+*.gpr
+*.lock
+ghidra_projects/
+x64dbg_sessions/
+
+# --- Logs & local notes ---
+*.log
+.local/
+secrets/
+credentials*
+
+# --- Build / package output ---
+out/
+release/
+*.appx
+*.msix
+*.exe
+*.dll
+!tools/**/*.exe
+# Prefer committing scripts, not random binaries
+*.msi
+
+# --- Misc ---
+*.tmp
+*.temp
+.cache/
