@@ -16,3 +16,4 @@ High-level timeline of discovery work. Details live in the root [README](../../R
 - Back-of-keyboard photo: model **ET-7449**, iBUYPOWER MK9 RGB, Made in China.
 - Research: ET-7449 appears in Eastern Times / Redragon compliance context; iBUYPOWER publicly collabed with Redragon on MK9 line.
 - Initialized git repo, README, LICENSE, .gitignore, asset docs; published to GitHub.
+- User rebooting into **Fedora**; added root **CONTINUE.md** handoff for cross-OS resume (clone/pull repo, read CONTINUE first).

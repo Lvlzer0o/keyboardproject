@@ -5,6 +5,8 @@ Safe, reversible research toward **user-mode RGB control** for the iBUYPOWER MK9
 > **Status:** Research / planning. No protocol implementation yet.  
 > **Goal:** A desktop app that can change RGB (and related lighting settings) without replacing system drivers or risking a bricked board.
 
+**Resuming after a reboot / on another OS?** Start here → **[CONTINUE.md](CONTINUE.md)**
+
 ---
 
 ## Device identity
