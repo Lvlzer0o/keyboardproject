@@ -1,0 +1,8 @@
+target /dev/hidraw5 GET_FEATURE only
+
+ID=0x05 len=6: FAIL errno=32: [Errno 32] Broken pipe
+ID=0x05 len=9: FAIL errno=32: [Errno 32] Broken pipe
+ID=0x06 len=520: FAIL errno=32: [Errno 32] Broken pipe
+ID=0x06 len=65: FAIL errno=32: [Errno 32] Broken pipe
+ID=0x06 len=9: FAIL errno=32: [Errno 32] Broken pipe
+hidraw4 sanity: FAIL errno=32: [Errno 32] Broken pipe

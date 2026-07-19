@@ -1,0 +1,21 @@
+=== ep_81 (if0) ===
+bEndpointAddress: 81
+bInterval: 01
+bLength: 07
+bmAttributes: 03
+direction: in
+interval: 1ms
+type: Interrupt
+uevent: 
+wMaxPacketSize: 0008
+
+=== ep_82 (if1) ===
+bEndpointAddress: 82
+bInterval: 01
+bLength: 07
+bmAttributes: 03
+direction: in
+interval: 1ms
+type: Interrupt
+uevent: 
+wMaxPacketSize: 0010

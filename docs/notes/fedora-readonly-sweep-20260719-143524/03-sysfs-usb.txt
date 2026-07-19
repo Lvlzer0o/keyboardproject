@@ -1,0 +1,118 @@
+=== sysfs USB device ===
+path: /sys/devices/pci0000:80/0000:80:14.0/usb3/3-5/3-5.1
+idVendor: 3402
+idProduct: 0303
+bcdDevice: 2002
+manufacturer: BY Tech
+product: American Future BY iBUYPOWER MK9 Mechanical Keyboard
+bDeviceClass: 00
+bDeviceSubClass: 00
+bDeviceProtocol: 00
+bNumConfigurations: 1
+bMaxPacketSize0: 8
+speed: 12
+devnum: 8
+busnum: 3
+bConfigurationValue: 1
+bmAttributes: a0
+bMaxPower: 500mA
+
+=== children / interfaces ===
+total 0
+drwxr-xr-x. 7 root root     0 Jul 19 14:35 .
+drwxr-xr-x. 9 root root     0 Jul 19 07:25 ..
+drwxr-xr-x. 5 root root     0 Jul 19 07:25 3-5.1:1.0
+drwxr-xr-x. 6 root root     0 Jul 19 07:25 3-5.1:1.1
+-rw-r--r--. 1 root root  4096 Jul 19 14:25 authorized
+-rw-r--r--. 1 root root  4096 Jul 19 14:25 avoid_reset_quirk
+-r--r--r--. 1 root root  4096 Jul 19 07:25 bcdDevice
+-rw-r--r--. 1 root root  4096 Jul 19 14:25 bConfigurationValue
+-r--r--r--. 1 root root  4096 Jul 19 07:25 bDeviceClass
+-r--r--r--. 1 root root  4096 Jul 19 14:25 bDeviceProtocol
+-r--r--r--. 1 root root  4096 Jul 19 14:25 bDeviceSubClass
+-r--r--r--. 1 root root  4096 Jul 19 14:25 bmAttributes
+-r--r--r--. 1 root root  4096 Jul 19 14:25 bMaxPacketSize0
+-r--r--r--. 1 root root  4096 Jul 19 14:25 bMaxPower
+-r--r--r--. 1 root root  4096 Jul 19 14:25 bNumConfigurations
+-r--r--r--. 1 root root  4096 Jul 19 14:25 bNumInterfaces
+-r--r--r--. 1 root root  4096 Jul 19 14:25 busnum
+-r--r--r--. 1 root root  4096 Jul 19 14:25 configuration
+-r--r--r--. 1 root root 65553 Jul 19 07:25 descriptors
+-r--r--r--. 1 root root  4096 Jul 19 14:25 dev
+-r--r--r--. 1 root root  4096 Jul 19 14:25 devnum
+-r--r--r--. 1 root root  4096 Jul 19 14:25 devpath
+lrwxrwxrwx. 1 root root     0 Jul 19 14:25 driver -> ../../../../../../bus/usb/drivers/usb
+drwxr-xr-x. 3 root root     0 Jul 19 14:25 ep_00
+-r--r--r--. 1 root root  4096 Jul 19 07:25 idProduct
+-r--r--r--. 1 root root  4096 Jul 19 07:25 idVendor
+-r--r--r--. 1 root root  4096 Jul 19 14:25 ltm_capable
+-r--r--r--. 1 root root  4096 Jul 19 07:25 manufacturer
+-r--r--r--. 1 root root  4096 Jul 19 14:25 maxchild
+lrwxrwxrwx. 1 root root     0 Jul 19 14:25 port -> ../3-5:1.0/3-5-port1
+drwxr-xr-x. 2 root root     0 Jul 19 14:25 power
+-r--r--r--. 1 root root  4096 Jul 19 07:25 product
+-r--r--r--. 1 root root  4096 Jul 19 14:25 quirks
+-r--r--r--. 1 root root  4096 Jul 19 14:25 removable
+--w-------. 1 root root  4096 Jul 19 14:25 remove
+-r--r--r--. 1 root root  4096 Jul 19 14:25 rx_lanes
+-r--r--r--. 1 root root  4096 Jul 19 14:25 speed
+lrwxrwxrwx. 1 root root     0 Jul 19 07:25 subsystem -> ../../../../../../bus/usb
+-r--r--r--. 1 root root  4096 Jul 19 14:25 tx_lanes
+-rw-r--r--. 1 root root  4096 Jul 19 07:25 uevent
+-r--r--r--. 1 root root  4096 Jul 19 14:25 urbnum
+-r--r--r--. 1 root root  4096 Jul 19 14:25 version
+drwxr-xr-x. 3 root root     0 Jul 19 07:25 wakeup
+
+--- 3-5.1:1.0 ---
+  bInterfaceNumber: 00
+  bInterfaceClass: 03
+  bInterfaceSubClass: 01
+  bInterfaceProtocol: 01
+  bNumEndpoints: 01
+  bAlternateSetting:  0
+total 0
+drwxr-xr-x. 5 root root    0 Jul 19 14:35 .
+drwxr-xr-x. 7 root root    0 Jul 19 14:35 ..
+drwxr-xr-x. 5 root root    0 Jul 19 07:25 0003:3402:0303.0005
+-rw-r--r--. 1 root root 4096 Jul 19 14:35 authorized
+-r--r--r--. 1 root root 4096 Jul 19 14:35 bAlternateSetting
+-r--r--r--. 1 root root 4096 Jul 19 07:25 bInterfaceClass
+-r--r--r--. 1 root root 4096 Jul 19 07:25 bInterfaceNumber
+-r--r--r--. 1 root root 4096 Jul 19 14:35 bInterfaceProtocol
+-r--r--r--. 1 root root 4096 Jul 19 14:35 bInterfaceSubClass
+-r--r--r--. 1 root root 4096 Jul 19 14:25 bNumEndpoints
+lrwxrwxrwx. 1 root root    0 Jul 19 07:25 driver -> ../../../../../../../bus/usb/drivers/usbhid
+drwxr-xr-x. 3 root root    0 Jul 19 14:35 ep_81
+-r--r--r--. 1 root root 4096 Jul 19 14:35 modalias
+drwxr-xr-x. 2 root root    0 Jul 19 14:25 power
+lrwxrwxrwx. 1 root root    0 Jul 19 07:25 subsystem -> ../../../../../../../bus/usb
+-r--r--r--. 1 root root 4096 Jul 19 14:35 supports_autosuspend
+-rw-r--r--. 1 root root 4096 Jul 19 07:25 uevent
+
+--- 3-5.1:1.1 ---
+  bInterfaceNumber: 01
+  bInterfaceClass: 03
+  bInterfaceSubClass: 00
+  bInterfaceProtocol: 00
+  bNumEndpoints: 01
+  bAlternateSetting:  0
+total 0
+drwxr-xr-x. 6 root root    0 Jul 19 14:35 .
+drwxr-xr-x. 7 root root    0 Jul 19 14:35 ..
+drwxr-xr-x. 5 root root    0 Jul 19 07:25 0003:3402:0303.0006
+-rw-r--r--. 1 root root 4096 Jul 19 14:35 authorized
+-r--r--r--. 1 root root 4096 Jul 19 14:35 bAlternateSetting
+-r--r--r--. 1 root root 4096 Jul 19 07:25 bInterfaceClass
+-r--r--r--. 1 root root 4096 Jul 19 07:25 bInterfaceNumber
+-r--r--r--. 1 root root 4096 Jul 19 14:35 bInterfaceProtocol
+-r--r--r--. 1 root root 4096 Jul 19 14:35 bInterfaceSubClass
+-r--r--r--. 1 root root 4096 Jul 19 14:25 bNumEndpoints
+lrwxrwxrwx. 1 root root    0 Jul 19 07:25 driver -> ../../../../../../../bus/usb/drivers/usbhid
+drwxr-xr-x. 3 root root    0 Jul 19 14:35 ep_82
+-r--r--r--. 1 root root 4096 Jul 19 14:35 modalias
+drwxr-xr-x. 2 root root    0 Jul 19 14:25 power
+lrwxrwxrwx. 1 root root    0 Jul 19 07:25 subsystem -> ../../../../../../../bus/usb
+-r--r--r--. 1 root root 4096 Jul 19 14:35 supports_autosuspend
+-rw-r--r--. 1 root root 4096 Jul 19 07:25 uevent
+drwxr-xr-x. 3 root root    0 Jul 19 07:25 usbmisc
+

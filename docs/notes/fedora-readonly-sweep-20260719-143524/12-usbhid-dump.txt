@@ -1,0 +1,8 @@
+=== usbhid-dump -d 3402:0303 ===
+libusb: error [get_usbfs_fd] libusb couldn't open USB device /dev/bus/usb/003/008, errno=13
+libusb: error [get_usbfs_fd] libusb requires write access to USB device nodes
+Failed to find and open the devices: Access denied (insufficient permissions)
+
+=== sudo -n usbhid-dump ===
+sudo: a password is required
+sudo needs password for usbhid-dump

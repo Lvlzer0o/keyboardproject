@@ -67,7 +67,7 @@ Lighting and helpers are primarily **on-device via FN**, which matches “prebui
 | FN + Space | Backlight on/off |
 | FN + ESC | **Factory default reset** (hardware undo) |
 | FN + Caps Lock | Full white |
-| FN + Backspace | Customize key LED mode |
+| FN + Backspace | Customize key LED mode (per-key; see below) |
 
 ### Other FN functions (high level)
 
@@ -80,6 +80,15 @@ Exact tables are preserved in:
 
 - `docs/assets/manual-shortcuts.png`  
 - `docs/assets/keyboard-back-label.png`  
+- `docs/notes/custom-mode-fn-backspace.md` — **discovered** custom-mode behavior  
+
+### Custom mode (FN + Backspace) — discovered
+
+While in custom mode, **each keypress on a key** advances **that key** through a fixed palette (not free RGB):
+
+**red → green → yellow → blue → purple → turquoise → white → off** → (repeat).
+
+**Save / exit:** **FN + Backspace** again. Multi-slot memory (if any) is unknown. Full lighting reset: **FN+ESC**.  
 
 ---
 

@@ -1,0 +1,164 @@
+
+======================================================================
+0003:3402:0303.0005
+file: /sys/bus/hid/devices/0003:3402:0303.0005/report_descriptor
+size: 67 bytes
+hex: 05010906a101050719e029e71500250195087501810295017508810395067508150026ff00050719002aff0081002501950575010508190129059102950175039103c0
+======================================================================
+Usage Page: 1 (Generic Desktop)
+Usage: 6 (Keyboard)
+  Collection: 1 (Application)
+  Usage Page: 7 (Keyboard/Keypad)
+  Usage Min: 0xE0
+  Usage Max: 0xE7
+  Logical Min: 0
+  Logical Max: 1
+  Report Count: 8
+  Report Size: 1
+  Input: 2 [Data, Var, Abs] bits=8 (~1B +ReportID)
+  Report Count: 1
+  Report Size: 8
+  Input: 3 [Const, Var, Abs] bits=8 (~1B +ReportID)
+  Report Count: 6
+  Report Size: 8
+  Logical Min: 0
+  Logical Max: 0xFF
+  Usage Page: 7 (Keyboard/Keypad)
+  Usage Min: 0
+  Usage Max: 0xFF
+  Input: 0 [Data, Array, Abs] bits=48 (~6B +ReportID)
+  Logical Max: 1
+  Report Count: 5
+  Report Size: 1
+  Usage Page: 8 (LEDs)
+  Usage Min: 1
+  Usage Max: 5
+  Output: 2 [Data, Var, Abs] bits=5 (~1B +ReportID)
+  Report Count: 1
+  Report Size: 3
+  Output: 3 [Const, Var, Abs] bits=3 (~1B +ReportID)
+End Collection: 
+
+======================================================================
+0003:3402:0303.0006
+file: /sys/bus/hid/devices/0003:3402:0303.0006/report_descriptor
+size: 240 bytes
+hex: 0601000980a10185011981298315002501950375018102950175058101c0050c0901a101850219002aff1f150026ff1f950175108100c00600ff0901a1018503150026ff00092f750895038102c005010906a101850405071904297015002501750195788102c00600ff0901a1018505150026ff001901290275089505b102c00600ff0901a1018506150026ff007508950709028100150026ff00190129027508960702b102c005010902a10185070901a1000509150025011901290575019505810295038101050116008026ff7f093009317510950281061581257f0938750895018106050c0a380295018106c0c0
+======================================================================
+Usage Page: 1 (Generic Desktop)
+Usage: 0x80 (System Control)
+  Collection: 1 (Application)
+  Report ID: 1 **** REPORT ID 0x01 ****
+  Usage Min: 0x81
+  Usage Max: 0x83
+  Logical Min: 0
+  Logical Max: 1
+  Report Count: 3
+  Report Size: 1
+  Input: 2 [Data, Var, Abs] bits=3 (~1B +ReportID)  ==> total xfer size often 2 bytes (w/ ID)
+  Report Count: 1
+  Report Size: 5
+  Input: 1 [Const, Array, Abs] bits=5 (~1B +ReportID)  ==> total xfer size often 2 bytes (w/ ID)
+End Collection: 
+Usage Page: 0xC (Consumer)
+Usage: 1 (Consumer 0x1)
+  Collection: 1 (Application)
+  Report ID: 2 **** REPORT ID 0x02 ****
+  Usage Min: 0
+  Usage Max: 0x1FFF
+  Logical Min: 0
+  Logical Max: 0x1FFF
+  Report Count: 1
+  Report Size: 0x10
+  Input: 0 [Data, Array, Abs] bits=16 (~2B +ReportID)  ==> total xfer size often 3 bytes (w/ ID)
+End Collection: 
+Usage Page: 0xFF00 (Vendor-Defined 0xFF00)
+Usage: 1 (Vendor usage 0x1)
+  Collection: 1 (Application)
+  Report ID: 3 **** REPORT ID 0x03 ****
+  Logical Min: 0
+  Logical Max: 0xFF
+  Usage: 0x2F (Vendor usage 0x2F)
+  Report Size: 8
+  Report Count: 3
+  Input: 2 [Data, Var, Abs] bits=24 (~3B +ReportID)  ==> total xfer size often 4 bytes (w/ ID)
+End Collection: 
+Usage Page: 1 (Generic Desktop)
+Usage: 6 (Keyboard)
+  Collection: 1 (Application)
+  Report ID: 4 **** REPORT ID 0x04 ****
+  Usage Page: 7 (Keyboard/Keypad)
+  Usage Min: 4
+  Usage Max: 0x70
+  Logical Min: 0
+  Logical Max: 1
+  Report Size: 1
+  Report Count: 0x78
+  Input: 2 [Data, Var, Abs] bits=120 (~15B +ReportID)  ==> total xfer size often 16 bytes (w/ ID)
+End Collection: 
+Usage Page: 0xFF00 (Vendor-Defined 0xFF00)
+Usage: 1 (Vendor usage 0x1)
+  Collection: 1 (Application)
+  Report ID: 5 **** REPORT ID 0x05 ****
+  Logical Min: 0
+  Logical Max: 0xFF
+  Usage Min: 1
+  Usage Max: 2
+  Report Size: 8
+  Report Count: 5
+  Feature: 2 [Data, Var, Abs] bits=40 (~5B +ReportID)  ==> total xfer size often 6 bytes (w/ ID)
+End Collection: 
+Usage Page: 0xFF00 (Vendor-Defined 0xFF00)
+Usage: 1 (Vendor usage 0x1)
+  Collection: 1 (Application)
+  Report ID: 6 **** REPORT ID 0x06 ****
+  Logical Min: 0
+  Logical Max: 0xFF
+  Report Size: 8
+  Report Count: 7
+  Usage: 2 (Vendor usage 0x2)
+  Input: 0 [Data, Array, Abs] bits=56 (~7B +ReportID)  ==> total xfer size often 8 bytes (w/ ID)
+  Logical Min: 0
+  Logical Max: 0xFF
+  Usage Min: 1
+  Usage Max: 2
+  Report Size: 8
+  Report Count: 0x207
+  Feature: 2 [Data, Var, Abs] bits=4152 (~519B +ReportID)  ==> total xfer size often 520 bytes (w/ ID)
+End Collection: 
+Usage Page: 1 (Generic Desktop)
+Usage: 2 (Mouse)
+  Collection: 1 (Application)
+  Report ID: 7 **** REPORT ID 0x07 ****
+  Usage: 1 (Pointer)
+    Collection: 0 (Physical)
+    Usage Page: 9 (Button)
+    Logical Min: 0
+    Logical Max: 1
+    Usage Min: 1
+    Usage Max: 5
+    Report Size: 1
+    Report Count: 5
+    Input: 2 [Data, Var, Abs] bits=5 (~1B +ReportID)  ==> total xfer size often 2 bytes (w/ ID)
+    Report Count: 3
+    Input: 1 [Const, Array, Abs] bits=3 (~1B +ReportID)  ==> total xfer size often 2 bytes (w/ ID)
+    Usage Page: 1 (Generic Desktop)
+    Logical Min: 0x8000
+    Logical Max: 0x7FFF
+    Usage: 0x30 (X)
+    Usage: 0x31 (Y)
+    Report Size: 0x10
+    Report Count: 2
+    Input: 6 [Data, Var, Rel] bits=32 (~4B +ReportID)  ==> total xfer size often 5 bytes (w/ ID)
+    Logical Min: 0x81
+    Logical Max: 0x7F
+    Usage: 0x38 (Wheel)
+    Report Size: 8
+    Report Count: 1
+    Input: 6 [Data, Var, Rel] bits=8 (~1B +ReportID)  ==> total xfer size often 2 bytes (w/ ID)
+    Usage Page: 0xC (Consumer)
+    Usage: 0x238 (Consumer 0x238)
+    Report Count: 1
+    Input: 6 [Data, Var, Rel] bits=8 (~1B +ReportID)  ==> total xfer size often 2 bytes (w/ ID)
+  End Collection: 
+End Collection: 

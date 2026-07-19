@@ -1,0 +1,6 @@
+=== GET_FEATURE probes (read-only HIDIOCGFEATURE) ===
+Target: /dev/hidraw5 (vendor iface). Will try sudo if needed.
+
+No user access to hidraw5 (expected mode 600). Trying via sudo -n subprocess...
+returncode 1
+

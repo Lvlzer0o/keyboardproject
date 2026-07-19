@@ -1,0 +1,24 @@
+# iBUYPOWER MK9 (3402:0303) — access on vendor interface ONLY (IF1).
+# Do NOT match interface 00 (boot keyboard / typing).
+#
+# IMPORTANT: udev ATTRS{} keys in one rule must come from a *single* parent.
+# idVendor/idProduct live on the USB device; bInterfaceNumber lives on the
+# interface — do not combine those ATTRS. Use ENV{ID_USB_INTERFACE_NUM} instead.
+#
+# Install:
+#   sudo cp docs/notes/udev/99-mk9-if1-hidraw.rules /etc/udev/rules.d/
+#   sudo udevadm control --reload-rules && sudo udevadm trigger -s hidraw
+#   # or unplug/replug
+# Verify:
+#   ls -l /dev/hidraw*          # IF1 should be mode 0660 and/or ACL +
+#   getfacl /dev/hidrawN        # user:<you>:rw-
+#   # IF0 stays root:root 600
+
+ACTION=="remove", GOTO="mk9_if1_end"
+
+SUBSYSTEM=="hidraw", KERNEL=="hidraw*", \
+  ATTRS{idVendor}=="3402", ATTRS{idProduct}=="0303", \
+  ENV{ID_USB_INTERFACE_NUM}=="01", \
+  MODE="0660", GROUP="wheel", TAG+="uaccess"
+
+LABEL="mk9_if1_end"

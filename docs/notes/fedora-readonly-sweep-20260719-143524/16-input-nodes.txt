@@ -1,0 +1,36 @@
+=== input devices for MK9 ===
+--- event5 ---
+name: BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard
+phys: usb-0000:80:14.0-5.1/input0
+uniq: 
+dev: 13:69
+0003	0303	3402	0111
+ev: 120013
+--- event6 ---
+name: BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard System Control
+phys: usb-0000:80:14.0-5.1/input1
+uniq: 
+dev: 13:70
+0003	0303	3402	0111
+ev: 13
+--- event7 ---
+name: BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard Consumer Control
+phys: usb-0000:80:14.0-5.1/input1
+uniq: 
+dev: 13:71
+0003	0303	3402	0111
+ev: 1f
+--- event8 ---
+name: BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard
+phys: usb-0000:80:14.0-5.1/input1
+uniq: 
+dev: 13:72
+0003	0303	3402	0111
+ev: 100013
+--- event9 ---
+name: BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard Mouse
+phys: usb-0000:80:14.0-5.1/input1
+uniq: 
+dev: 13:73
+0003	0303	3402	0111
+ev: 17

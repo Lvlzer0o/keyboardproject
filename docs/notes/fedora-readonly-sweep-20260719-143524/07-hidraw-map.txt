@@ -1,0 +1,7 @@
+=== all hidraw ===
+hidraw0 mode=660 root:root ID=0003:00000DB0:00000076 NAME=MSI MYSTIC LIGHT PHYS=usb-0000:80:14.0-8/input0
+hidraw1 mode=600 root:root ID=0003:000018F8:00000FC0 NAME=USB GAMING MOUSE  PHYS=usb-0000:80:14.0-5.2/input0
+hidraw2 mode=600 root:root ID=0003:000018F8:00000FC0 NAME=USB GAMING MOUSE  PHYS=usb-0000:80:14.0-5.2/input1
+hidraw3 mode=600 root:root ID=0003:00000BDA:00001101 NAME=Realtek HID Device PHYS=usb-0000:80:14.0-5.3/input0
+hidraw4 mode=600 root:root ID=0003:00003402:00000303 NAME=BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard PHYS=usb-0000:80:14.0-5.1/input0
+hidraw5 mode=600 root:root ID=0003:00003402:00000303 NAME=BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard PHYS=usb-0000:80:14.0-5.1/input1

@@ -1,0 +1,34 @@
+=== tools present ===
+/home/gigachad/tools/ghidra_12.0.4_PUBLIC/ghidraRun
+/usr/bin/wireshark
+/usr/bin/tshark
+/usr/bin/dumpcap
+/usr/bin/usbhid-dump
+/usr/bin/lsusb
+/usr/bin/openrgb
+/usr/bin/r2
+/usr/bin/gdb
+/usr/bin/java
+/usr/bin/python3
+
+=== dumpcap groups/caps ===
+/usr/bin/dumpcap cap_net_admin,cap_net_raw=ep
+uid=1000(gigachad) gid=1000(gigachad) groups=1000(gigachad),10(wheel),36(kvm),959(libvirt),966(ollama),968(wireshark),1001(i2c),1002(hardinfo2) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+gigachad wheel kvm libvirt ollama wireshark i2c hardinfo2
+
+=== usbmon interfaces (list only) ===
+crw-r-----. 1 root usbmon 243, 0 Jul 19 14:25 /dev/usbmon0
+crw-r-----. 1 root usbmon 243, 1 Jul 19 14:25 /dev/usbmon1
+crw-r-----. 1 root usbmon 243, 2 Jul 19 14:25 /dev/usbmon2
+crw-r-----. 1 root usbmon 243, 3 Jul 19 14:25 /dev/usbmon3
+crw-r-----. 1 root usbmon 243, 4 Jul 19 14:25 /dev/usbmon4
+ls: cannot access '/sys/kernel/debug/usb/usbmon': Permission denied
+
+=== python hid module ===
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import hid
+ModuleNotFoundError: No module named 'hid'
+no python hid
+hidapi-0.15.0-3.fc44.x86_64
+package hidapi-devel is not installed

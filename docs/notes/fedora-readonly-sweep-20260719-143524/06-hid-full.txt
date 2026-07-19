@@ -1,0 +1,106 @@
+=== HID devices for 3402:0303 ===
+######## 0003:3402:0303.0005 ########
+path: /sys/bus/hid/devices/0003:3402:0303.0005
+DRIVER=hid-generic
+HID_ID=0003:00003402:00000303
+HID_NAME=BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard
+HID_PHYS=usb-0000:80:14.0-5.1/input0
+HID_UNIQ=
+MODALIAS=hid:b0003g0001v00003402p00000303
+
+country: 00
+modalias: hid:b0003g0001v00003402p00000303
+report_descriptor size: 67 bytes
+00000000: 0501 0906 a101 0507 19e0 29e7 1500 2501  ..........)...%.
+00000010: 9508 7501 8102 9501 7508 8103 9506 7508  ..u.....u.....u.
+00000020: 1500 26ff 0005 0719 002a ff00 8100 2501  ..&......*....%.
+00000030: 9505 7501 0508 1901 2905 9102 9501 7503  ..u.....).....u.
+00000040: 9103 c0                                  ...
+hidraw: hidraw4
+crw-------. 1 root root 241, 4 Jul 19 14:25 /dev/hidraw4
+input nodes:
+total 0
+drwxr-xr-x.  3 root root 0 Jul 19 14:35 .
+drwxr-xr-x.  5 root root 0 Jul 19 14:35 ..
+drwxr-xr-x. 11 root root 0 Jul 19 07:25 input6
+  input6: name=BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard phys=usb-0000:80:14.0-5.1/input0 uniq=
+  key caps: 1000000000007 ff9f207ac14057ff febeffdfffefffff fffffffffffffffe
+  rel caps: 0
+  abs caps: 0
+  led caps: 1f
+  event: event5
+event5
+/sys/bus/hid/devices/0003:3402:0303.0005/input/input6/event5
+driver: ../../../../../../../../bus/hid/drivers/hid-generic
+
+######## 0003:3402:0303.0006 ########
+path: /sys/bus/hid/devices/0003:3402:0303.0006
+DRIVER=hid-generic
+HID_ID=0003:00003402:00000303
+HID_NAME=BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard
+HID_PHYS=usb-0000:80:14.0-5.1/input1
+HID_UNIQ=
+MODALIAS=hid:b0003g0001v00003402p00000303
+
+country: 00
+modalias: hid:b0003g0001v00003402p00000303
+report_descriptor size: 240 bytes
+00000000: 0601 0009 80a1 0185 0119 8129 8315 0025  ...........)...%
+00000010: 0195 0375 0181 0295 0175 0581 01c0 050c  ...u.....u......
+00000020: 0901 a101 8502 1900 2aff 1f15 0026 ff1f  ........*....&..
+00000030: 9501 7510 8100 c006 00ff 0901 a101 8503  ..u.............
+00000040: 1500 26ff 0009 2f75 0895 0381 02c0 0501  ..&.../u........
+00000050: 0906 a101 8504 0507 1904 2970 1500 2501  ..........)p..%.
+00000060: 7501 9578 8102 c006 00ff 0901 a101 8505  u..x............
+00000070: 1500 26ff 0019 0129 0275 0895 05b1 02c0  ..&....).u......
+00000080: 0600 ff09 01a1 0185 0615 0026 ff00 7508  ...........&..u.
+00000090: 9507 0902 8100 1500 26ff 0019 0129 0275  ........&....).u
+000000a0: 0896 0702 b102 c005 0109 02a1 0185 0709  ................
+000000b0: 01a1 0005 0915 0025 0119 0129 0575 0195  .......%...).u..
+000000c0: 0581 0295 0381 0105 0116 0080 26ff 7f09  ............&...
+000000d0: 3009 3175 1095 0281 0615 8125 7f09 3875  0.1u.......%..8u
+000000e0: 0895 0181 0605 0c0a 3802 9501 8106 c0c0  ........8.......
+hidraw: hidraw5
+crw-------. 1 root root 241, 5 Jul 19 14:25 /dev/hidraw5
+input nodes:
+total 0
+drwxr-xr-x. 6 root root 0 Jul 19 14:35 .
+drwxr-xr-x. 5 root root 0 Jul 19 14:35 ..
+drwxr-xr-x. 6 root root 0 Jul 19 07:25 input10
+drwxr-xr-x. 7 root root 0 Jul 19 07:25 input11
+drwxr-xr-x. 6 root root 0 Jul 19 07:25 input7
+drwxr-xr-x. 6 root root 0 Jul 19 07:25 input8
+  input10: name=BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard phys=usb-0000:80:14.0-5.1/input1 uniq=
+  key caps: ff80000000000000 80b0ffcd01cfffff febffbffdffffffe
+  rel caps: 0
+  abs caps: 0
+  led caps: 0
+  event: event8
+event8
+/sys/bus/hid/devices/0003:3402:0303.0006/input/input10/event8
+  input11: name=BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard Mouse phys=usb-0000:80:14.0-5.1/input1 uniq=
+  key caps: 1f0000 0 0 0 0
+  rel caps: 1943
+  abs caps: 0
+  led caps: 0
+  event: event9
+event9
+/sys/bus/hid/devices/0003:3402:0303.0006/input/input11/event9
+  input7: name=BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard System Control phys=usb-0000:80:14.0-5.1/input1 uniq=
+  key caps: c000 10000000000000 0
+  rel caps: 0
+  abs caps: 0
+  led caps: 0
+  event: event6
+event6
+/sys/bus/hid/devices/0003:3402:0303.0006/input/input7/event6
+  input8: name=BY Tech American Future BY iBUYPOWER MK9 Mechanical Keyboard Consumer Control phys=usb-0000:80:14.0-5.1/input1 uniq=
+  key caps: 3f00733fff 0 0 483ffff17aff32d bfd4444600000000 1 130ff38b17d000 677bfad9415fed 19ed68000004400 10000002
+  rel caps: 1040
+  abs caps: 100000000
+  led caps: 0
+  event: event7
+event7
+/sys/bus/hid/devices/0003:3402:0303.0006/input/input8/event7
+driver: ../../../../../../../../bus/hid/drivers/hid-generic
+

@@ -1,0 +1,64 @@
+=== openrgb --list-devices ===
+Connection attempt failed
+0: ENE DRAM
+  Type:           DRAM
+  Description:    ENE SMBus Device
+  Version:        I2C: SMBus I801 adapter at 0000:80:1f.4 (/dev/i2c-1), address 0x71
+  Location:       I2C: SMBus I801 adapter at 0000:80:1f.4 (/dev/i2c-1), address 0x71
+  Modes: [Direct] Off Static Breathing Flashing 'Spectrum Cycle' Rainbow 'Chase Fade' Chase 'Random Flicker'
+  Zones: DRAM
+  LEDs: 'DRAM LED 1' 'DRAM LED 2' 'DRAM LED 3' 'DRAM LED 4' 'DRAM LED 5' 'DRAM LED 6' 'DRAM LED 7' 'DRAM LED 8'
+
+1: ENE DRAM
+  Type:           DRAM
+  Description:    ENE SMBus Device
+  Version:        I2C: SMBus I801 adapter at 0000:80:1f.4 (/dev/i2c-1), address 0x73
+  Location:       I2C: SMBus I801 adapter at 0000:80:1f.4 (/dev/i2c-1), address 0x73
+  Modes: [Direct] Off Static Breathing Flashing 'Spectrum Cycle' Rainbow 'Chase Fade' Chase 'Random Flicker'
+  Zones: DRAM
+  LEDs: 'DRAM LED 1' 'DRAM LED 2' 'DRAM LED 3' 'DRAM LED 4' 'DRAM LED 5' 'DRAM LED 6' 'DRAM LED 7' 'DRAM LED 8'
+
+
+=== openrgb --help (flags) ===
+OpenRGB 0.9+ (git), for controlling RGB lighting.
+Usage: OpenRGB (--device [--mode] [--color])...
+
+Options:
+--gui                                    Shows the GUI. GUI also appears when not passing any parameters
+--startminimized                         Starts the GUI minimized to tray. Implies --gui, even if not specified
+--client [IP]:[Port]                     Starts an SDK client on the given IP:Port (assumes port 6742 if not specified)
+--server                                 Starts the SDK's server
+--server-host                            Sets the SDK's server host. Default: 0.0.0.0 (all network interfaces)
+--server-port                            Sets the SDK's server port. Default: 6742 (1024-65535)
+-l,  --list-devices                      Lists every compatible device with their number
+-d,  --device [0-9 | "name"]             Selects device to apply colors and/or effect to, or applies to all devices if omitted
+                                           Basic string search is implemented 3 characters or more
+                                           Can be specified multiple times with different modes and colors
+-z,  --zone [0-9]                        Selects zone to apply colors and/or sizes to, or applies to all zones in device if omitted
+                                           Must be specified after specifying a device
+-c,  --color [random | FFFFF,00AAFF ...] Sets colors on each device directly if no effect is specified, and sets the effect color if an effect is specified
+                                           If there are more LEDs than colors given, the last color will be applied to the remaining LEDs
+-m,  --mode [breathing | static | ...]   Sets the mode to be applied, check --list-devices to see which modes are supported on your device
+-b,  --brightness [0-100]                Sets the brightness as a percentage if the mode supports brightness
+-s, --speed [0-100]                      Sets the speed as a percentage if the mode supports speed
+-sz,  --size [0-N]                       Sets the new size of the specified device zone.
+                                           Must be specified after specifying a zone.
+                                           If the specified size is out of range, or the zone does not offer resizing capability, the size will not be changed
+-V,  --version                           Display version and software build information
+-p,  --profile filename[.orp]            Load the profile from filename/filename.orp
+-sp, --save-profile filename.orp         Save the given settings to profile filename.orp
+--i2c-tools                              Shows the I2C/SMBus Tools page in the GUI. Implies --gui, even if not specified.
+                                           USE I2C TOOLS AT YOUR OWN RISK! Don't use this option if you don't know what you're doing!
+                                           There is a risk of bricking your motherboard, RGB controller, and RAM if you send invalid SMBus/I2C transactions.
+--localconfig                            Use the current working directory instead of the global configuration directory.
+--config path                            Use a custom path instead of the global configuration directory.
+--nodetect                               Do not try to detect hardware at startup.
+--noautoconnect                          Do not try to autoconnect to a local server at startup.
+--loglevel [0-6 | error | warning ...]   Set the log level (0: fatal to 6: trace).
+--print-source                           Print the source code file and line number for each log entry.
+-v,  --verbose                           Print log messages to stdout.
+-vv, --very-verbose                      Print debug messages and log messages to stdout.
+--autostart-check                        Check if OpenRGB starting at login is enabled.
+--autostart-disable                      Disable OpenRGB starting at login.
+--autostart-enable arguments             Enable OpenRGB to start at login. Requires arguments to give to OpenRGB at login.
+
